@@ -1,9 +1,20 @@
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SEAS @ FSE '27</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@400;500;600;700&family=DM+Sans:ital,wght@0,400;0,500&display=swap">
-<link rel="stylesheet" href="se4asw.css">
+<link rel="stylesheet" href="style.css">
+
+<!-- Icon sprite (defined once, referenced via <use> to avoid repeating inline SVG paths) -->
+<svg style="display:none">
+  <symbol id="icon-cone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 3l5.5 16h-11L12 3Z"/><path d="M9 13.5h6"/><path d="M5 19h14"/>
+  </symbol>
+  <symbol id="icon-trophy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 4h10v5a5 5 0 0 1-10 0V4Z"/><path d="M17 5h2a2 2 0 0 1 2 2 4 4 0 0 1-4 4"/><path d="M7 5H5a2 2 0 0 0-2 2 4 4 0 0 0 4 4"/><path d="M12 17v4"/><path d="M8 21h8"/>
+  </symbol>
+</svg>
 
 <!-- NAV -->
 <nav>
@@ -106,11 +117,11 @@
         <h3>Submission Policy</h3>
         <p>Per SIGSOFT policy, organizers and their directly supervised students, postdocs, and employees may not submit papers to this workshop, and at least one author of each accepted paper must register for the workshop.</p>
         <div class="placeholder-box is-pending">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l5.5 16h-11L12 3Z"/><path d="M9 13.5h6"/><path d="M5 19h14"/></svg>
+          <svg width="18" height="18"><use href="#icon-cone"/></svg>
           <p><strong>Submission site coming soon.</strong></p>
         </div>
         <div class="placeholder-box is-award">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h10v5a5 5 0 0 1-10 0V4Z"/><path d="M17 5h2a2 2 0 0 1 2 2 4 4 0 0 1-4 4"/><path d="M7 5H5a2 2 0 0 0-2 2 4 4 0 0 0 4 4"/><path d="M12 17v4"/><path d="M8 21h8"/></svg>
+          <svg width="18" height="18"><use href="#icon-trophy"/></svg>
           <p><strong>Best Contribution Award</strong> will be presented at the workshop, with select papers invited to submit extended versions to a relevant journal or special issue.</p>
         </div>
       </div>
@@ -147,7 +158,7 @@
   <section id="accepted-papers">
     <h2>Accepted Papers</h2>
     <div class="placeholder-box is-pending">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l5.5 16h-11L12 3Z"/><path d="M9 13.5h6"/><path d="M5 19h14"/></svg>
+      <svg width="18" height="18"><use href="#icon-cone"/></svg>
       <p><strong>Coming soon.</strong> The accepted papers list will be published after author notifications on March 18, 2027.</p>
     </div>
   </section>
